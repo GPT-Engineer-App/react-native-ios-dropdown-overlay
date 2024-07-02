@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button";
 const Index = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4">
-      <h1 className="text-3xl mb-4">Welcome to the iOS Dropdown Demo</h1>
-      <p className="mb-8">This is a demonstration of an overlay dropdown for an iOS app using React Native.</p>
+      <h1 className="text-3xl mb-4">Welcome to the Stacked Dropdowns Demo</h1>
+      <p className="mb-8">This is a demonstration of stacked dropdowns for an iOS app using React Native.</p>
       <div className="space-y-4">
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
