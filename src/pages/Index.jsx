@@ -12,7 +12,7 @@ const Index = () => {
           <DropdownMenuTrigger asChild>
             <Button variant="outline">First Dropdown</Button>
           </DropdownMenuTrigger>
-          <DropdownMenuContent>
+          <DropdownMenuContent className="flex flex-col">
             <DropdownMenuItem>Option 1</DropdownMenuItem>
             <DropdownMenuItem>Option 2</DropdownMenuItem>
             <DropdownMenuItem>Option 3</DropdownMenuItem>
@@ -22,7 +22,7 @@ const Index = () => {
           <DropdownMenuTrigger asChild>
             <Button variant="outline">Second Dropdown</Button>
           </DropdownMenuTrigger>
-          <DropdownMenuContent>
+          <DropdownMenuContent className="flex flex-col">
             <DropdownMenuItem>Option A</DropdownMenuItem>
             <DropdownMenuItem>Option B</DropdownMenuItem>
             <DropdownMenuItem>Option C</DropdownMenuItem>
